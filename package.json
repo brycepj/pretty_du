@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "bin": {
+    "pdu": "index.js" 	
+  },
+  "preferGlobal": "true",
+  "author": "Bryce Johnson",
   "license": "BSD-2-Clause",
   "dependencies": {
     "shelljs": "~0.5.1",

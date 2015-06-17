@@ -34,7 +34,7 @@ function reduceBytes(structuredData) {
  			bytes /= 1000000000;
  		}
  		struct[idx]['unit'] = unit;
- 		struct[idx]['adjusted'] = bytes.toFixed(2);
+ 		struct[idx]['adjusted'] = bytes.toFixed(2) !== 4.10 ? bytes.toFixed(2) : 'empty';
  	});
 
  	return struct;
