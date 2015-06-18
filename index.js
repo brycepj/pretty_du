@@ -1,4 +1,4 @@
-#! /usr/bin/node
+#! /usr/bin/env node
 
 require('shelljs/global');
 var _ = require('lodash');
